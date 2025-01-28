@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+#cat{
+    height:350px;
+    width:auto;
+    transition: 0.3s ease;
+}
+#cat:hover{
+    height:360px;
+    width:auto;
+    transition: 0.3s ease;
+}
+.images{
+    height:250px;
+    width:auto;
+    margin: 20px;
+    transition: 0.3s ease;
+    
+    
+}
+#camera{
+    height:40px;
+    width: auto;
+}
+.images:hover{
+    height: 270px;
+    width: auto;
+    margin: 20px;
+    transition: 0.3s ease;
+    box-shadow: 10px;
+    
+}
+.nav-link{
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+font-weight: bold;
+transition: 0.3s ease;
+}
